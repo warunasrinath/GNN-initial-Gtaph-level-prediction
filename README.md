@@ -15,8 +15,12 @@ Now, observe this: in the initial stage, we start with five nodes before applyin
 ![diffpool in gnn](https://github.com/warunasrinath/GNN-initial-Gtaph-level-prediction/assets/56961480/768131e8-782a-4074-b335-e13c87dac1ff)
 
 2. Top-k Pooling technique
-Take all the nodes and arange the nodes as vector and based on the values of vector, then selected top k nodes and create new graph
+Take all the nodes and arrange the nodes as vector and based on the values of the vector, then select top-k nodes and create a new graph
 ![topk pooling1](https://github.com/warunasrinath/GNN-initial-Gtaph-level-prediction/assets/56961480/5106b099-6fbb-44bf-8293-d735d04b7637)
+
+*. We can use a super node(which should be added additionally to the graph), All the information of other nodes is collected by the supernode. 
+![supernode](https://github.com/warunasrinath/GNN-initial-Gtaph-level-prediction/assets/56961480/25b3ab76-9620-4f78-ab9a-677b87e526c3)
+
 
 
 
